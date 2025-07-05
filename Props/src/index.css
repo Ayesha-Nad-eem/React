@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+   @apply border-2 border-solid border-gray-400 w-[300px] h-[300px] rounded-lg shadow-lg flex flex-col items-center justify-center bg-white  m-4;
+}
