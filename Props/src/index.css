@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+/* .container {
    @apply border-2 border-solid border-gray-400 w-[300px] h-[300px] rounded-lg shadow-lg flex flex-col items-center justify-center bg-white  m-4;
+} */
+
+.list-category {
+    @apply text-[2.5em] font-bold m-[10px] text-gray-600 text-center border-2 border-gray-700 rounded-lg p-2 bg-green-500;
+}
+
+.list-items li{
+      @apply text-[2em] font-semibold m-[10px] text-gray-700 p-2 bg-gray-100 text-center hover:bg-gray-200 hover:cursor-pointer;
 }
