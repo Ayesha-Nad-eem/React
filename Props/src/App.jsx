@@ -23,9 +23,6 @@ function App() {
       {/* Valid props */}
       <List items={vegetables} category="Vegetables" />
       <List items={fruits} category="Fruits"/>
-
-      
-      
     </>
   )
 }
