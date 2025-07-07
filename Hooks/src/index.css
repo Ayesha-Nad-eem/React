@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Center the entire app on screen */
+body {
+    @apply min-h-screen flex items-center justify-center bg-gray-100 m-0 p-0;
+}
+
+#root {
+    @apply flex items-center justify-center;
+}
+
+/* .counter{
+    @apply text-[2em] font-semibold m-[10px] text-gray-700 p-2 bg-gray-100 text-center ;
+}
+
+.counter-display{
+    @apply m-[20px]
+}
+.btn{
+    @apply h-12 text-2xl m-[1px] text-white pt-1 pb-1 pl-2 pr-2 bg-blue-500 text-center hover:bg-blue-600 hover:cursor-pointer border-2 border-blue-700 rounded-lg;
+} */
+.container {
+    @apply flex flex-col justify-center bg-white w-[700px] h-[800px] rounded-lg shadow-lg border-2 border-gray-400;
+}
+.name {
+    @apply text-2xl font-semibold m-[10px] text-gray-700 p-2  text-center;
+}
+p {
+    @apply text-2xl font-semibold m-[10px] text-gray-700 p-2;
+}
+
+.quantity {
+    @apply text-xl font-semibold m-[10px] p-2 border-2 border-gray-300 rounded-lg;
+}
+.comment {
+    @apply text-xl font-semibold m-[10px] p-2 border-2 border-gray-300 rounded-lg;
+}
+.select-payment {
+    @apply text-xl font-semibold m-[10px] p-2 border-2 border-gray-300 rounded-lg;
+}
+
+.Radio {
+    @apply text-xl font-semibold ml-[20px] ;
+}
