@@ -8,6 +8,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import ColorPicker from './colorPicker.jsx'
 import CarObject from './CarObject.jsx'
+import FruitsArray from './FruitsArray.jsx'
 
 function App() {
   
@@ -19,7 +20,8 @@ function App() {
       {/* <MyComponent /> */}
       {/* <Counter /> */}
       {/* <ColorPicker /> */}
-      <CarObject />
+      {/* <CarObject /> */}
+      <FruitsArray />
     </>
   )
 }
