@@ -1,17 +1,17 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
 /* Center the entire app on screen */
 body {
-    @apply min-h-screen flex items-center justify-center bg-gray-100 m-0 p-0;
+    @apply font-sans;
 }
 
-#root {
+/* #root {
     @apply flex items-center justify-center;
-}
+} */
 
-/* .counter{
+.counter{
     @apply text-[2em] font-semibold m-[10px] text-gray-700 p-2 bg-gray-100 text-center ;
 }
 
@@ -20,7 +20,12 @@ body {
 }
 .btn{
     @apply h-12 text-2xl m-[1px] text-white pt-1 pb-1 pl-2 pr-2 bg-blue-500 text-center hover:bg-blue-600 hover:cursor-pointer border-2 border-blue-700 rounded-lg;
-} */
+}
+
+/* 
+ .heading {
+    @apply text-3xl font-bold m-[10px] text-white text-center border-2 border-gray-700 rounded-lg p-2 bg-blue-800;
+}
 .container {
     @apply flex flex-col justify-center bg-white w-[700px] h-[800px] rounded-lg shadow-lg border-2 border-gray-400;
 }
@@ -43,4 +48,28 @@ p {
 
 .Radio {
     @apply text-xl font-semibold ml-[20px] ;
+} */
+
+
+
+/* 
+.color-picker-container {
+    @apply flex flex-col items-center;
 }
+
+h1 {
+    @apply text-[3rem] m-[50px];
+}
+.color-display {
+    @apply w-[300px] h-[300px] flex items-center justify-center border-[5px] border-solid border-gray-300 rounded-lg shadow-lg mb-[25px] transition-colors duration-500 ease-linear;
+}
+
+.color-display p{
+    @apply text-[2rem] font-semibold text-gray-800 text-center;
+}
+label{
+    @apply text-[1.5rem] font-bold mb-[10px]
+}
+input[type="color"] {
+    @apply  w-[75px] h-[50px] p-[5px] rounded-lg border-2 border-gray-300;
+} */

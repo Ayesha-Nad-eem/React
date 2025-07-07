@@ -51,7 +51,7 @@ function MyComponent() {
 
       <p>Employed: {isEmployed ? "Yes" : "No"}</p>
       <button onClick={toggleEmployedStatus}>Toggle Employment</button> */}
-
+            <p className='heading'>Delivery Form</p>
             <input className='name' type="text" value={name} onChange={handleronChange} />
             <p>Name: {name}</p>
 
