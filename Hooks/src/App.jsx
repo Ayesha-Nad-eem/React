@@ -9,6 +9,7 @@ import Counter from './Counter.jsx'
 import ColorPicker from './colorPicker.jsx'
 import CarObject from './CarObject.jsx'
 import FruitsArray from './FruitsArray.jsx'
+import ArrayofObject from './ArrayofObject.jsx'
 
 function App() {
   
@@ -21,7 +22,8 @@ function App() {
       {/* <Counter /> */}
       {/* <ColorPicker /> */}
       {/* <CarObject /> */}
-      <FruitsArray />
+      {/* <FruitsArray /> */}
+      <ArrayofObject />
     </>
   )
 }
