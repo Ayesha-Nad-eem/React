@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply min-h-screen m-0 flex items-center justify-center;
+    background-image: url('./src/assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clock-container{
+  @apply flex p-8 rounded-2xl;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.clock{
+  @apply text-white text-[6rem]  font-bold font-[monospace] shadow-lg text-center 
+}
