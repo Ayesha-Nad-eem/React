@@ -10,6 +10,8 @@ import ColorPicker from './colorPicker.jsx'
 import CarObject from './CarObject.jsx'
 import FruitsArray from './FruitsArray.jsx'
 import ArrayofObject from './ArrayofObject.jsx'
+import Component from './useEffect.jsx'
+import HeightWidth from './heightWidth.jsx'
 
 function App() {
   
@@ -23,7 +25,9 @@ function App() {
       {/* <ColorPicker /> */}
       {/* <CarObject /> */}
       {/* <FruitsArray /> */}
-      <ArrayofObject />
+      {/* <ArrayofObject /> */}
+      {/* <Component /> */}
+      <HeightWidth />
     </>
   )
 }
