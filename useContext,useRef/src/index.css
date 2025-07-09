@@ -1,0 +1,7 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+.box{
+  @apply border-[3px] border-solid p-[25px]
+}
